@@ -133,5 +133,97 @@ function showScore() {
   nextBtn.style.display = "block";
   nextBtn.addEventListener("click", startQuiz);
 }
+questions.push(
+  {
+    question: "Which company developed the Android operating system?",
+    answers: [
+      { text: "Apple", correct: false },
+      { text: "Google", correct: true },
+      { text: "Microsoft", correct: false },
+      { text: "Amazon", correct: false }
+    ]
+  },
+  {
+    question: "Which animal is known as the 'Ship of the Desert'?",
+    answers: [
+      { text: "Camel", correct: true },
+      { text: "Horse", correct: false },
+      { text: "Donkey", correct: false },
+      { text: "Yak", correct: false }
+    ]
+  },
+  {
+    question: "In which year did World War II end?",
+    answers: [
+      { text: "1940", correct: false },
+      { text: "1945", correct: true },
+      { text: "1939", correct: false },
+      { text: "1950", correct: false }
+    ]
+  },
+  {
+    question: "Which Bollywood movie is the highest-grossing in India (as of 2024)?",
+    answers: [
+      { text: "KGF 2", correct: false },
+      { text: "Dangal", correct: false },
+      { text: "Jawan", correct: true },
+      { text: "Baahubali 2", correct: false }
+    ]
+  },
+  {
+    question: "What is the hardest natural substance on Earth?",
+    answers: [
+      { text: "Gold", correct: false },
+      { text: "Diamond", correct: true },
+      { text: "Platinum", correct: false },
+      { text: "Quartz", correct: false }
+    ]
+  },
+  {
+    question: "Which sport is known as the 'king of sports'?",
+    answers: [
+      { text: "Cricket", correct: false },
+      { text: "Football", correct: true },
+      { text: "Tennis", correct: false },
+      { text: "Basketball", correct: false }
+    ]
+  },
+  {
+    question: "Which Indian city is known as the Silicon Valley of India?",
+    answers: [
+      { text: "Hyderabad", correct: false },
+      { text: "Bengaluru", correct: true },
+      { text: "Pune", correct: false },
+      { text: "Chennai", correct: false }
+    ]
+  },
+  {
+    question: "Which instrument measures atmospheric pressure?",
+    answers: [
+      { text: "Barometer", correct: true },
+      { text: "Thermometer", correct: false },
+      { text: "Anemometer", correct: false },
+      { text: "Hygrometer", correct: false }
+    ]
+  },
+  {
+    question: "Which is the largest desert in the world?",
+    answers: [
+      { text: "Sahara Desert", correct: false },
+      { text: "Gobi Desert", correct: false },
+      { text: "Antarctic Desert", correct: true },
+      { text: "Arabian Desert", correct: false }
+    ]
+  },
+  {
+    question: "What is 12 × 8?",
+    answers: [
+      { text: "80", correct: false },
+      { text: "96", correct: true },
+      { text: "92", correct: false },
+      { text: "108", correct: false }
+    ]
+  }
+);
 
 startQuiz();
