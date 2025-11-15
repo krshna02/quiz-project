@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz App - Old Money Theme</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Old Money Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[#e6dfd5] min-h-screen flex items-center justify-center p-4" style="font-family: 'Lora', serif;">
+
+  <div class="app bg-[#f5f1e9] max-w-xl w-full p-8 border-2 border-[#4a4a4a] rounded-2xl shadow-xl shadow-[#c9c1b6]">
+
+    <h1 class="font-semibold text-3xl text-[#3a3a3a] pb-5 border-b border-[#7a766e] text-center"
+        style="font-family: 'Playfair Display', serif;">
+      Factopia    </h1>
+
+    <div class="quiz pt-6">
+
+      <h2 class="question font-semibold text-2xl text-[#4f4a41] mb-6 leading-snug"
+          style="font-family: 'Playfair Display', serif;">
+        Question goes here
+      </h2>
+
+      <div class="answer-ques space-y-4"></div>
+
+      <button class="next-btn hidden w-full md:w-40 text-center text-xl font-semibold 
+                     border-4 border-[#4a4a4a] py-2 mt-6 
+                     hover:bg-[#3a3a3a] hover:text-[#f5f1e9] 
+                     text-[#3a3a3a] transition duration-300 rounded-lg">
+        Next
+      </button>
+    </div>
+
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
